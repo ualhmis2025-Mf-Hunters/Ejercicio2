@@ -13,7 +13,7 @@ pipeline {
     stage('Git fetch') {
       steps {
         // Get some code from a GitHub repository
-        git branch: 'main', url: 'https://github.com/ualhmis2025-Mf-Hunters/sesion05torneos.git',
+        git branch: 'main', url: 'https://github.com/ualhmis2025-Mf-Hunters/Ejercicio2.git',
             credentialsId: 'jgm847TokenBien'
 
       }
